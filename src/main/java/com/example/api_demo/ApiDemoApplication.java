@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApiDemoApplication {
 
-
+@GetMapping("/message")
 	public String message(){
 		return "Hello this os from Local Demo!!! for Azure";
 	}
